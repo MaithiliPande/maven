@@ -19,7 +19,7 @@ import com.yash.pemapplication.util.DateUtil;
  *
  */
 public class PEMService {
-	static final Logger logger = Logger.getLogger(PEMService.class);
+//	static final Logger logger = Logger.getLogger(PEMService.class);
 	private Scanner input=new Scanner(System.in);
 	private Integer choice;
 	private Repository repository=Repository.getRepository();
@@ -79,7 +79,7 @@ public class PEMService {
 				System.out.println("0. Exit");
 				System.out.println("-----------------------------------");
 				System.out.print("Enter your choice : ");
-				logger.info("logger is working");
+//				logger.info("logger is working");
 				choice=input.nextInt();
 	}
 	
